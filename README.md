@@ -2,6 +2,8 @@
 
 A set of tutorials teaching the basics of Tensorflow
 
+**NOTE: This is under construction, the tutorials are not ready to be useful to anyone yet**
+
 01 - Basics
 
 02 - Basic Matrices
