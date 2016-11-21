@@ -1,0 +1,206 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300);
+
+
+
+#notebook-container h1, 
+#notebook-container h2, 
+#notebook-container h3, 
+#notebook-container h4, 
+#notebook-container h5, 
+#notebook-container h6 {
+    color: #307EC7;
+}
+
+#notebook-container em{
+    font-weight: 200;
+}
+
+
+body #notebook-container, .rendered_html #notebook-container li, .rendered_html #notebook-container p {
+    font-family: 'Droid Serif', serif;
+}
+
+
+.rendered_html #notebook-container li {
+    font-size: 1.4em;
+    color: #333333;
+    line-height:1.4;
+}
+
+/*
+.rendered_html #notebook-container li>ul>li {
+    font-size: 1.0em;
+    color: #333333;
+    line-height:1.4;
+}
+*/
+
+#notebook-container p{
+    font-size: 1.5em;
+    color: #333333;
+    line-height:1.5;
+}
+
+.rendered_html #notebook-container a{
+    color: #337ab7;
+    text-decoration: underline;    
+}
+
+.rendered_html #notebook-container a:hover{
+    color: #F38C28;
+    text-decoration: underline;    
+}
+
+.rendered_html #notebook-container .text_cell, #notebook-container .text_cell{
+    max-width: 800px;
+}
+
+/*----------------------------------------------------------------------------*/
+/*                                                           CODE AND OUTPUTS */
+/*----------------------------------------------------------------------------*/
+/*
+.rendered_html #notebook-container code{
+    color: #5EA51A;
+}
+*/
+
+
+/*
+#notebook-container .container{
+    width: 55em;
+    padding: 40px;
+}
+*/
+
+/*
+#notebook-container .prompt.input_prompt{
+    width: 0px;
+    min-width: 0px;
+    color: red;
+    visibility: hidden;
+}
+*/
+/*
+#notebook-container .output_area .prompt{
+    width: 50px;
+    min-width: 50px;
+}
+*/
+/*
+#notebook-container div.output_subarea {
+    max-width: calc(100% - 50px);
+}
+*/
+
+
+/*----------------------------------------------------------------------------*/
+/*                                                                     TABLES */
+/*----------------------------------------------------------------------------*/
+/*
+.rendered_html #notebook-container table, #notebook-container table{
+    border: 0px solid;
+}
+
+.rendered_html #notebook-container tr, #notebook-container tr{
+    border: 0px solid #F00;;
+}
+
+.rendered_html #notebook-container td, #notebook-container td{
+    border: 0px solid #F00;;
+}
+
+.rendered_html #notebook-container th, #notebook-container th{
+    border: 0px;
+}
+*/
+
+/*============================================================================*/
+/*                                                                     TABLES */
+/*============================================================================*/
+/*#notebook-container table strong{
+font-family: "Roboto", helvetica, arial, sans-serif;
+  font-weight: 400;
+}
+
+#notebook-container table {
+  font-family: "Roboto", helvetica, arial, sans-serif;
+  font-size: 1em;
+  font-weight: 200;
+
+  text-rendering: optimizeLegibility;
+
+  background: white;
+  border-collapse: collapse;
+
+  margin: 30px 0px;
+  padding:20px;
+  width: 100%;
+  animation: float 5s infinite;
+}
+
+#notebook-container th {
+  background:#DDDDDD;
+  border-bottom:2px solid #9ea7af;
+  border-right: 1px solid #C1C3D1;
+  font-size:1em;
+  font-weight: 400;
+  padding:24px;
+  text-align:left;
+  vertical-align:middle;
+}
+
+
+#notebook-container tr {
+  border-top: 1px solid #C1C3D1;
+  border-bottom-: 1px solid #C1C3D1;
+  color:#666B85;
+  font-size:16px;
+  font-weight:normal;
+  padding: 10px;
+
+}
+
+
+#notebook-container tr:first-child {
+  border-top:none;
+}
+
+#notebook-container tr:last-child {
+  border-bottom:none;
+}
+
+#notebook-container tr:nth-child(odd) td {
+  background:#EBEBEB;
+}
+
+#notebook-container tr:hover td {
+  background:#9698AC;
+  color:#FFFFFF;
+}
+
+tr:nth-child(odd):hover td {
+  background:#4E5066;
+}
+
+#notebook-container tr td, #notebook-container thead tr th{
+  padding: 5px 10px;
+}
+
+#notebook-container td {
+  background:#FFFFFF;
+  padding: 20px;
+  text-align:left;
+  vertical-align:middle;
+  font-weight:300;
+  font-size:1em;
+  border-right: 1px solid #C1C3D1;
+}
+
+#notebook-container td:last-child {
+  border-right: 0px;
+}
+*/
+
+
+
