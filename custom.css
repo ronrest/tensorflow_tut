@@ -2,6 +2,39 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300);
 
 
+/*FONT SIZES*/
+
+body #notebook-container, .rendered_html #notebook-container li, .rendered_html #notebook-container p {
+    font-family: 'Droid Serif', serif;
+}
+
+#notebook-container p{
+    font-size: 1.2em;
+    color: #333333;
+    line-height:1.6em;
+    text-align: justify;
+}
+
+
+.rendered_html #notebook-container li, div#notebook li {
+    font-size: 1.2em;
+    color: #333333;
+    line-height:1.6em;
+}
+
+
+#notebook-container em{
+    font-weight: 200;
+}
+
+.rendered_html code{
+    color: #73AD21;
+    font-size: 1.0em;
+}
+
+.rendered_html pre code{
+    color: #333333;
+}
 
 #notebook-container h1, 
 #notebook-container h2, 
@@ -12,21 +45,10 @@
     color: #307EC7;
 }
 
-#notebook-container em{
-    font-weight: 200;
-}
 
 
-body #notebook-container, .rendered_html #notebook-container li, .rendered_html #notebook-container p {
-    font-family: 'Droid Serif', serif;
-}
 
 
-.rendered_html #notebook-container li {
-    font-size: 1.4em;
-    color: #333333;
-    line-height:1.4;
-}
 
 /*
 .rendered_html #notebook-container li>ul>li {
@@ -36,11 +58,6 @@ body #notebook-container, .rendered_html #notebook-container li, .rendered_html 
 }
 */
 
-#notebook-container p{
-    font-size: 1.5em;
-    color: #333333;
-    line-height:1.5;
-}
 
 .rendered_html #notebook-container a{
     color: #337ab7;
