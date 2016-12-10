@@ -27,15 +27,6 @@ body #notebook-container, .rendered_html #notebook-container li, .rendered_html 
     font-weight: 200;
 }
 
-.rendered_html code{
-    color: #73AD21;
-    font-size: 1.0em;
-}
-
-.rendered_html pre code{
-    color: #333333;
-}
-
 #notebook-container h1, 
 #notebook-container h2, 
 #notebook-container h3, 
@@ -44,6 +35,34 @@ body #notebook-container, .rendered_html #notebook-container li, .rendered_html 
 #notebook-container h6 {
     color: #307EC7;
 }
+
+
+/* --------------------------------------------------------------- Inline Code*/
+.rendered_html code{
+    color: #73AD21;
+    font-size: 1.0em;
+}
+
+/* ---------------------------------------------------------------- Boxed Code*/
+/*.rendered_html pre code{
+    color: #333333;
+}*/
+
+.rendered_html pre {
+    padding: 20px;
+}
+
+.rendered_html pre, .rendered_html pre code {
+    background-color: #EEEEEE;
+    color: #333333;
+}
+
+/* -------------------------------------------------------------- Output Cell */
+.output_wrapper .output_subarea{
+    background-color: #EFFCC4;
+}
+
+
 
 
 
