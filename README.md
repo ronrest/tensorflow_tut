@@ -6,4 +6,5 @@
 - [04. ]()
 - ...
 - [nn. Conditionals](conditionals.ipynb)
+- [nn. Saving and Restoring Variables](saving_and_restoring.ipynb)
 
